@@ -59,7 +59,7 @@ ul{
 }
 
 .donate{
-    background: linear-gradient(rgba(118, 118, 214, 0.45), rgba(118, 118, 214, 0.45)), url(starter_files/images/donate.jpg);
+    background: linear-gradient(rgba(118, 118, 214, 0.45), rgba(118, 118, 214, 0.45)), no-repeat center/cover url(starter_files/images/donate.jpg);
 }
 
 .volunteer{
@@ -70,8 +70,15 @@ ul{
     background: linear-gradient(rgba(118, 118, 214, 0.45), rgba(118, 118, 214, 0.45)), url(starter_files/images/location.png);
 }
 
+.footer_size{
+    flex: 1 1 30%;
+    height: 300px;
+    display: flex;
+}
+
 .footer_row{
-    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 .dog_name{
     font-weight: bold;

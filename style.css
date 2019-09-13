@@ -21,6 +21,63 @@ ul{
 }
 
 .dog_image{
-    width: 33%;
+    width: 95%;
     height: auto;
+}
+
+.pain_image{
+    width: 50%;
+    height: auto;
+}
+
+.dog_row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.footer_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.radio_check_groups{
+    display: flex;
+    flex-direction: row;
+}
+
+.dog_attributes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: .75em;
+}
+
+.radio_button_box{
+    background-color: #f0edee;
+}
+
+.donate{
+    background: linear-gradient(rgba(118, 118, 214, 0.45), rgba(118, 118, 214, 0.45)), url(starter_files/images/donate.jpg);
+}
+
+.volunteer{
+    background: linear-gradient(rgba(118, 118, 214, 0.45), rgba(118, 118, 214, 0.45)), url(starter_files/images/volunteer.jpg);
+}
+
+.location{
+    background: linear-gradient(rgba(118, 118, 214, 0.45), rgba(118, 118, 214, 0.45)), url(starter_files/images/location.png);
+}
+
+.footer_row{
+    width: 100%;
+}
+.dog_name{
+    font-weight: bold;
+}
+
+.attribute{
+    border-radius: 5px;
+    background-color: #90ddf0;
 }

@@ -25,8 +25,9 @@
             <h3 class="bolded_text">
                 Show me dogs that are
             </h3>
-
-            <div class="radiogroup"> 
+            
+            <div class="radio_check_groups">
+            <div class="radio_group"> 
                 <div class="label">Gender</div> 
                 <ul class="radio"> 
                   <li><input type="radio" name="gender" value="male"/><label>Male</label></li> 
@@ -35,7 +36,7 @@
                 </ul> 
             </div> 
 
-            <div class="radiogroup"> 
+            <div class="radio_group"> 
                 <div class="label">Age</div> 
                 <ul class="radio"> 
                   <li><input type="radio" name="age" value="puppy"/><label>Puppy</label></li> 
@@ -46,7 +47,7 @@
                 </ul> 
             </div> 
 
-            <div class="checkgroup"> 
+            <div class="check_group"> 
                 <div class="label">Size</div> 
                 <ul class="check"> 
                   <li><input type="checkbox" name="size" value="tiny"/><label>Tiny</label></li> 
@@ -56,7 +57,7 @@
                 </ul> 
             </div>
 
-            <div class="checkgroup"> 
+            <div class="check_group"> 
                 <div class="label">Personality Traits</div> 
                 <ul class="check"> 
                   <li><input type="checkbox" name="personality_traits" value="easygoing"/><label>Easygoing</label></li> 
@@ -67,54 +68,397 @@
                 </ul> 
             </div>
         </div>
+        </div>
 
-        <ul>
+        <ul class="dog_row">
             <li>
                 <img class="dog_image" src="starter_files/images/beans.jpg">
+                <p class="dog_name">
+                    Beans
+                </p>
+                <ul class="dog_attributes">
+                    <li class="attribute">
+                        <p>
+                            Adult
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Male
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Medium
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Easygoing
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with cats
+                        </p>
+                    </li>
+                </ul>
             </li>
             <li>
                 <img class="dog_image" src="starter_files/images/boston-terrier.jpg">
+                <p class="dog_name">
+                    Zelda
+                </p>
+                <ul class="dog_attributes">
+                    <li class="attribute">
+                        <p>
+                            Senior
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Female
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Small
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Easygoing
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with kids
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with other dogs
+                        </p>
+                    </li>
+                </ul>
             </li>
             <li>
                 <img class="dog_image" src="starter_files/images/boxer.jpg">
+                <p class="dog_name">
+                    Baby
+                </p>
+                <ul class="dog_attributes">
+                    <li class="attribute">
+                        <p>
+                            Young
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Female
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Large
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Energetic
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with kids
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with other dogs
+                        </p>
+                    </li>
+                </ul>
             </li>
         </ul>
-
-        <ul>
+        
+        <ul class="dog_row">
             <li>
                  <img class="dog_image" src="starter_files/images/golden-lab.jpg">
+                 <p class="dog_name">
+                     Tom-Tom
+                 </p>
+                 <ul class="dog_attributes">
+                    <li class="attribute">
+                        <p>
+                            Young
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Male
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Large
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Energetic
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with kids
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with other dogs
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with cats
+                        </p>
+                    </li>
+                </ul>
             </li>
             <li>
                 <img class="dog_image" src="starter_files/images/little-dog.jpg">
+                <p class="dog_name">
+                    Marco
+                </p>
+                <ul class="dog_attributes">
+                    <li class="attribute">
+                        <p>
+                            Adult
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Male
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Small
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Energetic
+                        </p>
+                    </li>
+                </ul>
             </li>
             <li>
                  <img class="dog_image" src="starter_files/images/old-shaggy.jpg">
+                 <p class="dog_name">
+                     Shackleton
+                 </p>
+                 <ul class="dog_attributes">
+                    <li class="attribute">
+                        <p>
+                            Adult
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Male
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Medium
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Easygoing
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Energetic
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with kids
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with other dogs
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with cats
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with other dogs
+                        </p>
+                    </li>
+                </ul>
              </li>
         </ul>
 
-        <ul>
+        <ul class="dog_row">
             <li>
-                <img class="dog_image" src="starter_files/images/shih-tzu.jpg">
+                <img class="pain_image" src="starter_files/images/shih-tzu.jpg">
+                <p class="dog_name">
+                    Midge
+                </p>
+                <ul class="dog_attributes">
+                    <li class="attribute">
+                        <p>
+                            Adult
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Feale
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Small
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Easygoing
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with kids
+                        </p>
+                    </li>
+                </ul>
             </li>
             <li>
                 <img class="dog_image" src="starter_files/images/young-bulldog.jpg">
+                <p class="dog_name">
+                    Ladybird
+                </p>
+                <ul class="dog_attributes">
+                    <li class="attribute">
+                        <p>
+                            Young
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Female
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Large
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Easygoing
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Energetic
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with kids
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with other dogs
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with cats
+                        </p>
+                    </li>
+                </ul>
             </li>
             <li>
                 <img class="dog_image" src="starter_files/images/young-peppy.jpg">
+                <p class="dog_name">
+                    Mina
+                </p>
+                <ul class="dog_attributes">
+                    <li class="attribute">
+                        <p>
+                            Puppy
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Female
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Medium
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Energetic
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with kids
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with other dogs
+                        </p>
+                    </li>
+                    <li class="attribute">
+                        <p>
+                            Good with cats
+                        </p>
+                    </li>
+                </ul>
             </li>
         </ul>
 
         <footer>
-            <ul>
-                <li>
-                    <img class="dog_image" src="starter_files/images/donate.jpg">
+            <ul class=footer_row>
+                <div class="footer_size">
+                <li class="donate">
+                    <p>
+                        Donate
+                    </p>
                 </li>
-                <li>
-                     <img class="dog_image" src="starter_files/images/volunteer.jpg">
+                </div>
+                <div class="footer_size">
+                <li class="volunteer">
+                     <p>
+                         Volunteer
+                     </p>
                 </li>
-                <li>
-                    <img class="dog_image" src="starter_files/images/location.jpg">
+                </div>
+                <div class="footer_size">
+                <li class="location">
+                    <p>
+                        Location
+                    </p>
                 </li>
+                </div>
             </ul>
         </footer>
 </body>

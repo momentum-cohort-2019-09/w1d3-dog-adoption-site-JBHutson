@@ -1,0 +1,26 @@
+.header {
+    background-color: #083d77;
+    border-bottom: 2px solid #90ddf0;
+    color: white;
+}
+
+.bolded_text{
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.radiogroup .label{
+    font-weight: bold;
+}
+
+.checkgroup .label{
+    font-weight: bold;
+}
+
+.dog_image{
+    width: 33%;
+    height: auto;
+}
